@@ -1,5 +1,7 @@
 # Agent Engineering Rules
 
+[![skills.sh](https://skills.sh/b/oopsrudder/agent-skills)](https://skills.sh/oopsrudder/agent-skills/agent-engineering-rules)
+
 One set of enforceable engineering rules, shipped into every AI coding agent's global rules file with a single command.
 
 Different agents, same standards: root-cause-first fixes, no timer hacks, minimal `useEffect`, terse comments, audited imports, feature-first directory layout, no unsolicited Markdown.
@@ -10,7 +12,7 @@ Different agents, same standards: root-cause-first fixes, no timer hacks, minima
 npx skills add oopsrudder/agent-skills --skill agent-engineering-rules
 ```
 
-Or copy the folder into your agent's skills directory.
+Requires Node.js 22.20+ for the `skills` CLI. Or copy the folder into your agent's skills directory — the installer itself only needs Node 18+.
 
 ## Use
 
